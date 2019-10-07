@@ -1,0 +1,5 @@
+/home/users/chelseas/packages/fxhoudini_lops/1.0.2/./src/python/fxhoudini_lops/__init__.py
+/home/users/chelseas/packages/fxhoudini_lops/1.0.2/./src/python/fxhoudini_lops/__init__.pyc
+/home/users/chelseas/packages/fxhoudini_lops/1.0.2/./houdini/config/Icons/LOP_hdk_sphere.svg
+/home/users/chelseas/packages/fxhoudini_lops/1.0.2/./houdini/config/Icons/SOP_hdk_star.svg
+/home/users/chelseas/packages/fxhoudini_lops/1.0.2/./houdini/config/Icons/SOP_proto_custombrush.svg

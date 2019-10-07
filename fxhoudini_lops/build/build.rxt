@@ -1,0 +1,645 @@
+{
+    "default_patch_lock": "no_lock",
+    "rez_version": "2.30.0.11",
+    "package_requests": [
+        "glew-2.0+",
+        "AL_USDGlimpseSchemas-0.11",
+        "AL_boost-1.66.0",
+        "Qt_vfx-5.6.1",
+        "glimpse-3.24+",
+        "ALQt-8.5+",
+        "ALSimpleTypes-1.0+",
+        "ALPropertyLayout-1.2+",
+        "AL_CMakeLib-2.0+<3",
+        "AL_CMakeLibHoudini-1.0+<2",
+        "cmake-2.8+",
+        "python-2.7",
+        "gcc-6.3.1",
+        "glimpse_oiio-1.65+",
+        "houdini"
+    ],
+    "serialize_version": "4.3",
+    "resolved_packages": [
+        {
+            "variables": {
+                "index": null,
+                "version": "7.4.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "CentOS"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.0.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glew"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.66.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_boost"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.8.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "zlib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.1.10",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "openssl"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.7.14.5.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.3.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pystring"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.66.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_boost_python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ilmbase"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.8.10.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "hdf5"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.7.al1.1.15",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_libAlembic"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.5.39.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "flex"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "41.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "setuptools"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "MarkupSafe"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.10.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "jinja2"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2018.2.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "tbb"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.19.1.13",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "usdBase"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.11.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_USDGlimpseSchemas"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "5.6.1.8.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "Qt_vfx"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.5.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glimpse_ptex"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "OpenEXR"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.65.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glimpse_oiio"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "Sydney.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "zone"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_63"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libdc1394"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libLegoColorTable"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "5.3.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "fmt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.5.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "openjpeg"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.4.9.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "opencv"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_spdlog"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.68.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glimpse_sl"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.9.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALOpenColorIO"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_logging"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.3.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "assetResolverCore"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "3.31.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glimpse"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "4.19.3.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "sip"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "5.9.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "PyQt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALSimpleTypes"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALPropertyLayout"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_23"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.40.1.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "graphviz"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpp_btree"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "7.33.0.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libcurl"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALPropertyLayoutPython"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.5.2.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "tinyxml"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "11.1.51",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "shareBase"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "8.14.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALQt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_CMakeLib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_CMakeLibHoudini"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.14.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cmake"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "devtoolset"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "6.3.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "gcc"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "18.0.224.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "houdiniDevKit"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "18.0.224",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "houdini"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_85"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_79"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_45"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_44"
+            },
+            "key": "filesystem.variant"
+        }
+    ],
+    "num_loaded_packages": 0,
+    "status": "solved",
+    "implicit_packages": [
+        "~platform==linux",
+        "~arch==x86_64",
+        "~os==CentOS-7.4.1708",
+        "~cuda-10+",
+        "zone-Sydney",
+        "!cpuModel_158",
+        "cpuModel_85",
+        "cpuModel_79",
+        "cpuModel_63",
+        "cpuModel_45",
+        "cpuModel_44",
+        "cpuModel_23"
+    ],
+    "host": "sy1wsa0020.al.com.au",
+    "user": "chelseas",
+    "package_filter": [],
+    "arch": "x86_64",
+    "solve_time": 1.4049839973449707,
+    "building": true,
+    "requested_timestamp": null,
+    "parent_suite_path": null,
+    "suite_context_name": null,
+    "package_orderers": null,
+    "graph": "{'nodes': [((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_62', 'glimpse-3.31.1[1]'), ('_63', 'sip-4.19.3.2[]'), ('_60', 'AL_logging-1.1.0[]'), ('_61', 'assetResolverCore-2.3.4[]'), ('_66', 'ALPropertyLayout-1.3.0[]'), ('_67', 'cpuModel_23-1.0.3[]'), ('_64', 'PyQt-5.9.0.2[1]'), ('_65', 'ALSimpleTypes-1.1.0[1]'), ('_68', 'graphviz-2.40.1.3[0]'), ('_69', 'cpp_btree-1.1.2[]'), ('_84', 'cpuModel_45-1.0.3[]'), ('_85', 'cpuModel_44-1.0.3[]'), ('_80', 'houdiniDevKit-18.0.224.1[]'), ('_81', 'houdini-18.0.224[]'), ('_82', 'cpuModel_85-1.0.0[]'), ('_83', 'cpuModel_79-1.0.3[]'), ('_39', 'flex-2.5.39.2[]'), ('_38', 'AL_libAlembic-1.7.al1.1.15[]'), ('_31', 'zlib-1.2.8.2[]'), ('_30', 'AL_boost-1.66.0[]'), ('_33', 'python-2.7.14.5.3[0]'), ('_32', 'openssl-1.0.1.10[]'), ('_35', 'AL_boost_python-1.66.0[]'), ('_34', 'pystring-1.1.3.2[]'), ('_37', 'hdf5-1.8.10.5[]'), ('_36', 'ilmbase-2.2.0.2[]'), ('_59', 'ALOpenColorIO-1.0.9.5[]'), ('_58', 'glimpse_sl-1.68.0[]'), ('_53', 'libLegoColorTable-1.3.6[]'), ('_52', 'libdc1394-2.2.2.1[]'), ('_51', 'cpuModel_63-1.0.3[]'), ('_50', 'zone-Sydney.5[]'), ('_57', 'AL_spdlog-1.3.1[]'), ('_56', 'opencv-2.4.9.1[]'), ('_55', 'openjpeg-1.5.1.1[]'), ('_54', 'fmt-5.3.0[]'), ('_28', 'CentOS-7.4.4[]'), ('_29', 'glew-2.0.0.2[]'), ('_48', 'OpenEXR-2.2.0.3[]'), ('_49', 'glimpse_oiio-1.65.1[]'), ('_40', 'setuptools-41.2.0[0]'), ('_41', 'MarkupSafe-1.1.1[0]'), ('_42', 'jinja2-2.10.1.1[0]'), ('_43', 'tbb-2018.2.0.3[]'), ('_44', 'usdBase-0.19.1.13[]'), ('_45', 'AL_USDGlimpseSchemas-0.11.0[]'), ('_46', 'Qt_vfx-5.6.1.8.1[]'), ('_47', 'glimpse_ptex-2.5.0[]'), ('_79', 'gcc-6.3.1.2[]'), ('_78', 'devtoolset-6[]'), ('_75', 'AL_CMakeLib-2.1.1[]'), ('_74', 'ALQt-8.14.0[1]'), ('_77', 'cmake-3.14.5[]'), ('_76', 'AL_CMakeLibHoudini-1.0.0[]'), ('_71', 'ALPropertyLayoutPython-1.2.0[1]'), ('_70', 'libcurl-7.33.0.4[]'), ('_73', 'shareBase-11.1.51[]'), ('_72', 'tinyxml-2.5.2.2[]')]), ((('fillcolor', '#F6F6F6'), ('fontsize', 10), ('style', 'filled,dashed')), [('_99', 'tbb-4.4+'), ('_98', 'MarkupSafe-1.0+<2'), ('_97', 'setuptools'), ('_96', 'glew-2.0'), ('_95', 'zlib-1.2+<1.3'), ('_94', 'hdf5-1.8+<1.9'), ('_93', 'ilmbase-2.2'), ('_92', '~AL_boost-1.66'), ('_91', 'python-2.7.14.5.1+<3'), ('_90', 'openssl-1.0.1'), ('_88', 'zlib-1.2.8+<2'), ('_89', 'CentOS-7+<8'), ('_86', 'CentOS-7.4+<8'), ('_87', '~bzip2-1.0'), ('_108', 'usdBase-0.19.1.2+<0.19.2'), ('_109', 'pystring-1.1'), ('_107', 'AL_boost_python-1.66'), ('_102', 'jinja2'), ('_103', 'AL_boost_python-1.66.0'), ('_104', 'AL_libAlembic-1.7.al1.1.1+<1.7.al2'), ('_105', '!AL_USDSchemas'), ('_106', 'AL_boost-1.66'), ('_119', 'libdc1394'), ('_118', 'openjpeg-1.5+'), ('_113', 'ilmbase-2.2.0'), ('_112', 'CentOS-7'), ('_111', '!Qt'), ('_110', '!MayaQt'), ('_117', 'glimpse_ptex-2.5'), ('_116', 'zlib-1.2+'), ('_115', 'OpenEXR-2.2'), ('_114', 'zlib-1.2'), ('_126', 'glimpse_sl-1.68.0+<1.69'), ('_127', 'glimpse_oiio-1.65.0+<1.66'), ('_124', 'AL_logging-1.1+<1.2'), ('_125', 'zone'), ('_122', 'glimpse_oiio-1.62.6+'), ('_123', 'AL_spdlog-1.3.1'), ('_120', 'zlib'), ('_121', 'fmt-5.3.0'), ('_128', 'ilmbase'), ('_129', 'libLegoColorTable-1.3'), ('_131', 'ALOpenColorIO-1.0.9+<1.1'), ('_130', 'assetResolverCore-2.3'), ('_133', 'sip-4.19.3+<5'), ('_132', 'opencv-2.4+<3'), ('_135', 'python-2.7+<3'), ('_134', 'Qt_vfx-5.6.1.8'), ('_137', 'PyQt-5'), ('_136', 'setuptools-1.4+'), ('_139', 'openssl-1.0.1+<1.1'), ('_138', 'sip-4.19'), ('_144', 'cpp_btree-1.1'), ('_145', 'libcurl-7'), ('_146', 'shareBase-11.1'), ('_147', 'ALOpenColorIO-1.0'), ('_140', 'sip-4.17+<5'), ('_141', 'ALPropertyLayout-1.3'), ('_142', 'PyQt-5.9+<6'), ('_143', 'tinyxml-2.5.2+<2.6'), ('_148', 'ALSimpleTypes-1.1'), ('_149', 'ALPropertyLayoutPython-1.2'), ('_157', '~tbb-2018.2'), ('_156', 'devtoolset-6'), ('_155', '~libcurl-7.33'), ('_154', '~ncurses-5.9'), ('_153', 'sip-4.19.3'), ('_152', 'PyQt-5.9'), ('_151', 'graphviz-2.40'), ('_150', '~OpenGL'), ('_159', '~libxml2-2.8.0'), ('_158', 'houdiniDevKit-18.0.224'), ('_100', 'flex-2.5.39+<2.6'), ('_160', '~zlib-1.2.7+<2'), ('_161', '~PyQt-4.7.3+<6'), ('_101', 'hdf5-1.8')]), ((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_9', 'AL_CMakeLib-2.0+<3'), ('_8', 'ALPropertyLayout-1.2+'), ('_7', 'ALSimpleTypes-1.0+'), ('_6', 'ALQt-8.5+'), ('_5', 'glimpse-3.24+'), ('_4', 'Qt_vfx-5.6.1'), ('_3', 'AL_boost-1.66.0'), ('_2', 'AL_USDGlimpseSchemas-0.11'), ('_1', 'glew-2.0+'), ('_17', '~arch==x86_64'), ('_16', '~platform==linux'), ('_15', 'houdini'), ('_14', 'glimpse_oiio-1.65+'), ('_13', 'gcc-6.3.1'), ('_12', 'python-2.7'), ('_11', 'cmake-2.8+'), ('_10', 'AL_CMakeLibHoudini-1.0+<2'), ('_19', '~cuda-10+'), ('_18', '~os==CentOS-7.4.1708'), ('_26', 'cpuModel_44'), ('_27', 'cpuModel_23'), ('_24', 'cpuModel_63'), ('_25', 'cpuModel_45'), ('_22', 'cpuModel_85'), ('_23', 'cpuModel_79'), ('_20', 'zone-Sydney'), ('_21', '!cpuModel_158')])], 'edges': [((('arrowsize', '0.5'),), [('_99', '_43'), ('_98', '_41'), ('_97', '_40'), ('_96', '_29'), ('_95', '_31'), ('_94', '_37'), ('_93', '_36'), ('_92', '_30'), ('_91', '_33'), ('_90', '_32'), ('_62', '_125'), ('_62', '_126'), ('_62', '_127'), ('_62', '_128'), ('_62', '_117'), ('_62', '_129'), ('_62', '_96'), ('_62', '_130'), ('_62', '_131'), ('_62', '_99'), ('_62', '_132'), ('_62', '_86'), ('_62', '_24'), ('_63', '_86'), ('_63', '_12'), ('_60', '_123'), ('_60', '_86'), ('_61', '_86'), ('_61', '_124'), ('_61', '_106'), ('_66', '_97'), ('_64', '_133'), ('_64', '_12'), ('_64', '_86'), ('_64', '_134'), ('_65', '_106'), ('_65', '_135'), ('_65', '_136'), ('_65', '_134'), ('_65', '_137'), ('_65', '_138'), ('_68', '_86'), ('_88', '_31'), ('_89', '_28'), ('_86', '_28'), ('_80', '_157'), ('_80', '_86'), ('_80', '_12'), ('_81', '_86'), ('_81', '_12'), ('_81', '_158'), ('_81', '_159'), ('_81', '_160'), ('_81', '_161'), ('_108', '_44'), ('_109', '_34'), ('_9', '_75'), ('_8', '_66'), ('_7', '_65'), ('_6', '_74'), ('_5', '_62'), ('_4', '_46'), ('_3', '_30'), ('_2', '_45'), ('_1', '_29'), ('_107', '_35'), ('_15', '_81'), ('_14', '_49'), ('_13', '_79'), ('_12', '_33'), ('_11', '_77'), ('_10', '_76'), ('_102', '_42'), ('_103', '_35'), ('_104', '_38'), ('_106', '_30'), ('_119', '_52'), ('_118', '_55'), ('_113', '_36'), ('_112', '_28'), ('_117', '_47'), ('_116', '_31'), ('_115', '_48'), ('_114', '_31'), ('_126', '_58'), ('_127', '_49'), ('_124', '_60'), ('_125', '_50'), ('_122', '_49'), ('_123', '_57'), ('_120', '_31'), ('_121', '_54'), ('_128', '_36'), ('_129', '_53'), ('_38', '_93'), ('_38', '_94'), ('_38', '_95'), ('_38', '_96'), ('_38', '_86'), ('_31', '_86'), ('_30', '_86'), ('_30', '_87'), ('_33', '_88'), ('_33', '_89'), ('_33', '_90'), ('_32', '_86'), ('_35', '_86'), ('_35', '_91'), ('_35', '_92'), ('_34', '_86'), ('_37', '_86'), ('_36', '_86'), ('_59', '_96'), ('_59', '_86'), ('_58', '_93'), ('_58', '_122'), ('_58', '_86'), ('_58', '_3'), ('_53', '_86'), ('_52', '_86'), ('_57', '_121'), ('_57', '_86'), ('_56', '_118'), ('_56', '_119'), ('_56', '_120'), ('_56', '_86'), ('_55', '_86'), ('_54', '_86'), ('_131', '_59'), ('_130', '_61'), ('_133', '_63'), ('_132', '_56'), ('_135', '_33'), ('_134', '_46'), ('_137', '_64'), ('_136', '_40'), ('_139', '_32'), ('_138', '_63'), ('_29', '_86'), ('_26', '_85'), ('_27', '_67'), ('_24', '_51'), ('_25', '_84'), ('_22', '_82'), ('_23', '_83'), ('_20', '_50'), ('_48', '_86'), ('_48', '_113'), ('_48', '_114'), ('_49', '_115'), ('_49', '_93'), ('_49', '_116'), ('_49', '_117'), ('_49', '_86'), ('_49', '_3'), ('_40', '_12'), ('_41', '_97'), ('_41', '_86'), ('_41', '_12'), ('_42', '_98'), ('_42', '_12'), ('_43', '_86'), ('_44', '_86'), ('_44', '_99'), ('_44', '_93'), ('_44', '_100'), ('_44', '_101'), ('_44', '_102'), ('_44', '_3'), ('_44', '_103'), ('_44', '_104'), ('_44', '_12'), ('_45', '_105'), ('_45', '_86'), ('_45', '_106'), ('_45', '_107'), ('_45', '_108'), ('_45', '_97'), ('_45', '_109'), ('_46', '_110'), ('_46', '_111'), ('_46', '_112'), ('_47', '_86'), ('_144', '_69'), ('_145', '_70'), ('_146', '_73'), ('_147', '_59'), ('_140', '_63'), ('_141', '_66'), ('_142', '_64'), ('_143', '_72'), ('_148', '_65'), ('_149', '_71'), ('_79', '_86'), ('_79', '_156'), ('_78', '_86'), ('_74', '_106'), ('_74', '_146'), ('_74', '_135'), ('_74', '_136'), ('_74', '_147'), ('_74', '_148'), ('_74', '_141'), ('_74', '_149'), ('_74', '_150'), ('_74', '_151'), ('_74', '_86'), ('_74', '_134'), ('_74', '_152'), ('_74', '_153'), ('_77', '_86'), ('_77', '_154'), ('_77', '_155'), ('_76', '_9'), ('_71', '_3'), ('_71', '_135'), ('_71', '_136'), ('_71', '_140'), ('_71', '_141'), ('_71', '_86'), ('_71', '_134'), ('_71', '_142'), ('_70', '_95'), ('_70', '_139'), ('_70', '_86'), ('_73', '_86'), ('_73', '_106'), ('_73', '_27'), ('_73', '_143'), ('_73', '_144'), ('_73', '_145'), ('_72', '_86'), ('_157', '_43'), ('_156', '_78'), ('_155', '_70'), ('_153', '_63'), ('_152', '_64'), ('_151', '_68'), ('_158', '_80'), ('_100', '_39'), ('_160', '_31'), ('_161', '_64'), ('_101', '_37')])]}",
+    "failure_description": null,
+    "created": 1570152569,
+    "package_paths": [
+        "/home/users/chelseas/packages",
+        "/film/tools/packages"
+    ],
+    "platform": "linux",
+    "rez_path": "/film/tools/packages/rez/2.30.0.11/CentOS-7_thru_8/lib/python2.7/site-packages/rez-2.30.0.11-py2.7.egg/rez",
+    "patch_locks": {},
+    "from_cache": true,
+    "timestamp": 1570152569,
+    "caching": true,
+    "load_time": 0.0,
+    "os": "CentOS-7.4.1708"
+}
